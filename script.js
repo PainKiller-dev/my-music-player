@@ -1,4 +1,6 @@
 const songs = [
+  { title: "My Song", 128-Jee Karda - Badlapur 128 Kbps.mp3: "songs/mysong.mp3", Screenshot_20260130_153004.jpg: "covers/cover2.jpg" }
+];const songs = [
   { title: "Demo Song", file: "songs/song1.mp3", cover: "covers/cover1.jpg" }
 ];
 
