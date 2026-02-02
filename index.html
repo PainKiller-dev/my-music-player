@@ -1,1 +1,28 @@
-<audio controls src="songs/song1.mp3"></audio>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PlaylistxPirate</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="player">
+    <h1> PlaylistxPirate</h1>
+    <img id="cover" src="covers/cover1.jpg">
+    <h2 id="title">Song Title</h2>
+
+    <audio id="audio" controls></audio>
+
+    <div class="controls">
+      <button onclick="prevSong()">⏮</button>
+      <button onclick="playPause()">▶️ / ⏸</button>
+      <button onclick="nextSong()">⏭</button>
+    </div>
+
+    <ul id="playlist"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
