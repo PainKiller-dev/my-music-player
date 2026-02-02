@@ -1,0 +1,33 @@
+body {
+  background: #0f0f0f;
+  color: white;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.player {
+  max-width: 420px;
+  width: 100%;
+  text-align: center;
+}
+img {
+  width: 100%;
+  border-radius: 12px;
+}
+.controls button {
+  font-size: 20px;
+  margin: 10px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  padding: 8px;
+  cursor: pointer;
+  border-bottom: 1px solid #333;
+}
+li:hover {
+  background: #222;
+}
